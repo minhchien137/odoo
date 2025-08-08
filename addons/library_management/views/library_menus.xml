@@ -12,4 +12,11 @@
               parent="menu_library_root" 
               action="action_library_book" 
               sequence="10"/>
+
+     <menuitem id="menu_library_authors" 
+              name="Quản lý tác giả" 
+              parent="menu_library_root" 
+              action="action_library_author" 
+              sequence="10"/>
+    
 </odoo>

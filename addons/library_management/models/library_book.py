@@ -94,6 +94,15 @@ class LibraryBook(models.Model):
         for record in self:
             if record.pages and record.pages <= 0:
                 raise ValidationError("Số trang phải lớn hơn 0")
+            
+
+
+    @api.constrains('publication_date')
+    def _check_publication_date(self):
+        for record in self:
+            if record.publication_date and record.publication_date > fields.Date.today():
+                raise ValidationError("Ngày xuất bản không thể lớn hơn ngày hiện tại")
+
 
     @api.constrains('borrow_date', 'return_date')
     def _check_dates(self):
