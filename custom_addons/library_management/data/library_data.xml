@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Sample data -->
+        <record id="book_1" model="library.book">
+            <field name="name">Lập trình Python căn bản</field>
+            <field name="author">Nguyễn Văn A</field>
+            <field name="isbn">978-604-1-00000-1</field>
+            <field name="publisher">NXB Thông tin và Truyền thông</field>
+            <field name="pages">300</field>
+            <field name="category">technology</field>
+            <field name="description">Sách học lập trình Python từ cơ bản đến nâng cao</field>
+        </record>
+        
+        <record id="book_2" model="library.book">
+            <field name="name">Odoo Development Essentials</field>
+            <field name="author">Daniel Reis</field>
+            <field name="isbn">978-1-78439-579-6</field>
+            <field name="publisher">Packt Publishing</field>
+            <field name="pages">324</field>
+            <field name="category">technology</field>
+            <field name="description">Complete guide to Odoo development</field>
+        </record>
+    </data>
+</odoo>

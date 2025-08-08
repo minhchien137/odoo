@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="menu_library_root" 
+              name="Thư viện" 
+              web_icon="library_management,static/description/icon.png"
+              sequence="10"/>
+    
+    <!-- Books submenu -->
+    <menuitem id="menu_library_books" 
+              name="Quản lý sách" 
+              parent="menu_library_root" 
+              action="action_library_book" 
+              sequence="10"/>
+</odoo>
