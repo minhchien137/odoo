@@ -2126,7 +2126,7 @@ msgstr "Thứ 5"
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Thursday"
-msgstr "Thứ năm"
+msgstr "Thứ Năm"
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__tz

@@ -155,6 +155,22 @@
             <field name="company_type">company</field>
         </record>
 
+
+        <record model="res.partner" id="partner_sushi_shop">
+            <field name="name">Pizza Shop</field>
+            <field name="city">Paris</field>
+            <field name="country_id" ref="base.fr"/>
+            <field name="street">Boulevard Saint-Germain</field>
+            <field name="zip">486624</field>
+            <field name="email">order@sushi.com</field>
+            <field name="phone">+32498859912</field>
+            <field name="company_type">company</field>
+        </record>
+
+
+
+
+
         <record model="lunch.supplier" id="supplier_coin_gourmand">
             <field name="partner_id" ref="partner_coin_gourmand"/>
             <field name="available_location_ids" eval="[

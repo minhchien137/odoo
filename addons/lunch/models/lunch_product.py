@@ -37,7 +37,7 @@ class LunchProduct(models.Model):
     last_order_date = fields.Date(compute='_compute_last_order_date')
 
     product_image = fields.Image(compute='_compute_product_image')
-    # This field is used only for searching
+
     is_available_at = fields.Many2one('lunch.location', 'Product Availability', compute='_compute_is_available_at', search='_search_is_available_at')
 
     @api.depends('image_128', 'category_id.image_128')

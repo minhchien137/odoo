@@ -21,26 +21,5 @@
             <field name="category">technology</field>
             <field name="description">Complete guide to Odoo development</field>
         </record>
-
-        <record id="book_3" model="library.book">
-            <field name="name">Thiên văn học cơ bản</field>
-            <field name="author">Trần Văn B</field>
-            <field name="isbn">978-604-1-00001-2</field>
-            <field name="publisher">NXB Khoa học và Kỹ thuật</field>
-            <field name="pages">250</field>
-            <field name="category">astronomy</field>
-            <field name="description">Khám phá vũ trụ và các hiện tượng thiên văn</field>
-        </record>
-
-        <record id="book_4" model="library.book">
-            <field name="name">Văn học Việt Nam hiện đại</field>
-            <field name="author">Lê Thị C</field>
-            <field name="isbn">978-604-1-00002-3</field>
-            <field name="publisher">NXB Văn học</field>
-            <field name="pages">400</field>
-            <field name="category">literature</field>
-            <field name="description">Tuyển tập các tác phẩm văn học nổi bật của Việt Nam</field>
-        </record>
-        
     </data>
 </odoo>
